@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinión sobre la Lectura</title>
+</head>
+
+<body id="inicio">
+    <center>
+
+        <header>
+            <h1><em>OPINIÓN SOBRE LA LECTURA</em></h1>
+            <a href="index.html">VOLVER MENU</a>
+            <p><em>Expresa tu opinión sobre la lectura y tu experiencia en el Museo de la Literatura.</em></p>
+            <hr>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Formulario de opinión</h2>
+                <p>Responde las siguientes preguntas según tus gustos y experiencias personales.</p>
+
+                <form>
+                    <p>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+
+                    <hr>
+
+                    <p><strong>1. ¿Te gusta leer?</strong></p>
+
+                    <p>
+                        <input type="radio" id="si" name="gusta" value="si">
+                        <label for="si">Sí</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="no" name="gusta" value="no">
+                        <label for="no">No</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="aveces" name="gusta" value="aveces">
+                        <label for="aveces">A veces</label>
+                    </p>
+
+                    <p><strong>2. ¿Con qué frecuencia lees?</strong></p>
+
+                    <select name="frecuencia">
+                        <option value="">Selecciona una opción</option>
+                        <option value="diario">Todos los días</option>
+                        <option value="semana">Varias veces a la semana</option>
+                        <option value="mes">Algunas veces al mes</option>
+                        <option value="rara">Rara vez</option>
+                    </select>
+
+                    <p><strong>3. ¿Qué género literario prefieres?</strong></p>
+
+                    <select name="genero">
+                        <option value="">Selecciona una opción</option>
+                        <option value="novela">Novela</option>
+                        <option value="poesia">Poesía</option>
+                        <option value="cuento">Cuento</option>
+                        <option value="teatro">Teatro</option>
+                        <option value="fantasia">Fantasía</option>
+                        <option value="terror">Terror</option>
+                        <option value="romance">Romance</option>
+                    </select>
+
+                    <p><strong>4. ¿Qué tipo de libros has leído?</strong></p>
+
+                    <p>
+                        <input type="checkbox" id="novelas" name="libros" value="novelas">
+                        <label for="novelas">Novelas</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="cuentos" name="libros" value="cuentos">
+                        <label for="cuentos">Cuentos</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="poesia" name="libros" value="poesia">
+                        <label for="poesia">Poesía</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="teatro" name="libros" value="teatro">
+                        <label for="teatro">Teatro</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="historicos" name="libros" value="historicos">
+                        <label for="historicos">Libros históricos</label>
+                    </p>
+
+                    <p><strong>5. ¿Qué tan importante crees que es la lectura?</strong></p>
+
+                    <input type="range" id="importancia" name="importancia" min="1" max="10">
+
+                    <p><strong>6. ¿Qué sala del museo te gustó más?</strong></p>
+
+                    <select name="sala">
+                        <option value="">Selecciona una sala</option>
+                        <option value="antigua">Literatura Antigua</option>
+                        <option value="medieval">Edad Media</option>
+                        <option value="renacimiento">Renacimiento</option>
+                        <option value="romanticismo">Romanticismo</option>
+                        <option value="realismo">Realismo</option>
+                        <option value="moderna">Literatura Moderna</option>
+                        <option value="contemporanea">Literatura Contemporánea</option>
+                    </select>
+
+                    <p><strong>7. ¿Qué parte del museo te gustó más?</strong></p>
+
+                    <textarea name="parte" rows="4" cols="40" placeholder="Escribe tu respuesta..."></textarea>
+
+                    <p><strong>8. ¿Qué mejorarías del museo?</strong></p>
+
+                    <textarea name="mejoras" rows="4" cols="40" placeholder="Escribe tus sugerencias..."></textarea>
+
+                    <p><strong>9. ¿Recomendarías este museo a otra persona?</strong></p>
+
+                    <p>
+                        <input type="radio" id="recomendar-si" name="recomendar" value="si">
+                        <label for="recomendar-si">Sí</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="recomendar-no" name="recomendar" value="no">
+                        <label for="recomendar-no">No</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="recomendar-talvez" name="recomendar" value="talvez">
+                        <label for="recomendar-talvez">Tal vez</label>
+                    </p>
+
+                    <p><strong>10. Cuéntanos algo más sobre tu experiencia.</strong></p>
+
+                    <textarea name="experiencia" rows="5" cols="40" placeholder="Escribe aquí tu opinión..."></textarea>
+
+                    <p>
+                        <input type="submit" value="Enviar formulario">
+                        <input type="reset" value="Borrar respuestas">
+                    </p>
+                </form>
+            </section>
+
+        </main>
+        <a href="index.html">VOLVER MENU</a>
+    </center>
+</body>
+
+</html>
